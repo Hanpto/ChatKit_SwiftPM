@@ -10,11 +10,11 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Tencent-RTC/AtomicXCore_SwiftPM.git", from: "4.3.0"),
         .package(url: "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM.git", from: "9.0.7652"),
-        .package(url: "https://github.com/Tencent-RTC/AlbumPicker_SwiftPM.git", from: "1.0.8"),
-        .package(url: "https://github.com/Tencent-RTC/AlbumPickerCore_SwiftPM.git", from: "1.0.8"),
+        .package(url: "https://github.com/Hanpto/AlbumPicker_SwiftPM.git", from: "1.0.8"),
+        .package(url: "https://github.com/Hanpto/AlbumPickerCore_SwiftPM.git", from: "1.0.8"),
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.7.1"),
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.12.0"),
-        .package(url: "https://github.com/Tencent-RTC/Masonry_SwiftPM.git", from: "1.1.0")
+        .package(url: "https://github.com/Hanpto/Masonry_SwiftPM.git", from: "1.1.0")
     ],
     targets: [
         .target(
